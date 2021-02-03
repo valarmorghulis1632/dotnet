@@ -1,0 +1,13 @@
+.note-card{
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    min-height: 25vh;
+    max-height: 70vh;
+    padding: 1em;
+    border: 1px solid blue;
+    border-radius: 1em;
+    box-shadow: 5px 5px;
+    align-items: center;
+    margin: 2em;
+}
