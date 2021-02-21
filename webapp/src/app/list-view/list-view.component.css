@@ -1,0 +1,12 @@
+.error-message{
+    color: black;
+}
+
+
+.cards-panel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1em;
+
+}
