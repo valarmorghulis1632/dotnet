@@ -20,7 +20,6 @@ namespace Commander.Controllers
     [ApiController]
     public class CommandsController : ControllerBase
     {
-        private const string V = "NTLM Authentication";
         private readonly ICommanderRepo _repository;
         private readonly IMapper _mapper;
 
@@ -32,7 +31,7 @@ namespace Commander.Controllers
        
         //GET api/commands
         // [EnableCors]
-        // [Authorize(Roles = V)]
+        // [Authorize(Roles = "NTLM Authentication")]
         // [AuthorizeMyFeature]
         // [Authorize(Policy="PolicyName")]
         [HttpGet]
